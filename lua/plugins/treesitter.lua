@@ -18,7 +18,6 @@ return {
                     "json",
                     "javascript",
                     "query",
-                    "typescript",
                     "tsx",
                     "php",
                     "yaml",
@@ -41,3 +40,4 @@ return {
         end
     }
 }
+
