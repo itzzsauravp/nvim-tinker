@@ -25,6 +25,10 @@ require("lazy").setup({
             config = function()
                 require("nvim-autopairs").setup({ check_ts = true, })
             end,
+        },
+        {
+            'tpope/vim-commentary',
+            lazy = false, -- Load Immediately /optional/
         }
     },
     change_detection = { notify = false },
