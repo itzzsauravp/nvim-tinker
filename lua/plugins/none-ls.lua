@@ -15,6 +15,9 @@ return {
                     -- 👇 This ensures .prettierrc is used if present
                     extra_args = { "--config-precedence", "prefer-file" },
                 }),
+                null_ls.builtins.formatting.clang_format.with({
+                    filetypes = { "c", "cpp", "objc", "java" },
+                })
             },
             on_attach = function(client, bufnr)
                 if client.supports_method("textDocument/formatting") then

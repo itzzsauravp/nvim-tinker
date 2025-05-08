@@ -22,6 +22,7 @@ return {
                     "php",
                     "yaml",
                     "html",
+                    "sql",
                     "css",
                     "markdown",
                     "markdown_inline",
