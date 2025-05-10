@@ -1,9 +1,2 @@
-require("config.options")
-require("config.keybinds")
+-- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-
--- Auto Reload file on external changes ( but i use `:e` most of the time )
--- vim.o.autoread = true
--- vim.api.nvim_create_autocmd({"FocusGained", "BufEnter"}, {
---   command = "checktime"
--- })
