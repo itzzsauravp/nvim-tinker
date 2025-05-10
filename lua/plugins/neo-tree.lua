@@ -1,10 +1,6 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
   cmd = "Neotree",
-  keys = {
-    { "<leader>e", "<cmd>Neotree toggle position=right<cr>", desc = "Toggle Explorer" },
-    { "<leader>E", "<cmd>Neotree toggle position=left<cr>", desc = "Toggle Explorer (Left)" },
-  },
   opts = {
     default_component_configs = {
       indent = {
